@@ -4,7 +4,7 @@ function doGet(e){
   
    return HtmlService.createTemplateFromFile('Principal')
       .evaluate()
-   //línea de código que se agregó para poder incrustarlo en un iframe sin problema//
+   /*línea de código que se agregó para poder incrustarlo en un iframe sin problema*/
       .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
       
 }
